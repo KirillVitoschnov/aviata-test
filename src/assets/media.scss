@@ -1,0 +1,130 @@
+@media screen and (max-width: 1200px) {
+  .container {
+    max-width: 980px;
+  }
+}
+
+@media screen and (max-width: 999px) {
+  .container {
+    max-width: 750px;
+  }
+  .main-wrapper {
+    flex-direction: column;
+    margin-top: 16px;
+  }
+  .filter-column {
+    width: 100%;
+  }
+  .list-column {
+    width: 100%;
+    margin: 0;
+    max-width: unset;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .container {
+    max-width: 600px;
+  }
+
+  .clear-filters {
+    margin: 23px 0;
+  }
+  .avia-date-main-wrapper {
+    flex-wrap: wrap;
+    margin: 27px 22px 0;
+  }
+  .avia-logo{
+    margin-left: 22px;
+  }
+  .meta-wrapper {
+    width: 100%;
+  }
+  .ticket-info {
+    height: unset;
+    margin-top: 18px;
+    flex-direction: column;
+    margin-left: 0;
+  }
+  .ticket-card-wrapper {
+    position: relative;
+    flex-direction: column;
+    height: auto;
+  }
+  .price-wrapper {
+    margin-top: 38px;
+    width: 100%;
+  }
+  .price-wrapper-additional {
+    height: unset;
+    margin: 0;
+    width: unset;
+
+    button {
+      display: none;
+    }
+
+    span {
+      position: absolute;
+      top: 19px;
+      right: 21px;
+  }
+}
+.ticket-info-additional{
+  display: none;
+}
+.price-wrapper-passenger-text {
+  margin: 14px 0;
+}
+
+.ticket-no-refundable {
+  display: none;
+}
+  .avia-date-time{
+   top: -20px;
+  }
+  .city-text{
+    top: -20px;
+  }
+  .avia-date-city{
+    top: 20px;
+  }
+.ticket-url {
+  display: none;
+}
+
+.avia-date-chart {
+  order: 3;
+  width: 100%;
+  margin: 32px 0 0;
+}
+  .avia-date-wrapper:last-child{
+    margin-left: auto;
+    margin-right: 0;
+  }
+  .avia-date-wrapper:first-child{
+    margin-right: auto;
+    margin-left: 0;
+  }
+
+}
+@media screen and (max-width: 770px) {
+  .container {
+    max-width: 500px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .container {
+    max-width: 400px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .container {
+    max-width: 350px;
+  }
+}
+@media screen and (max-width: 370px) {
+  .container {
+    max-width: 300px;
+  }
+}

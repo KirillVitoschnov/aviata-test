@@ -1,0 +1,58 @@
+* {
+  font-family: 'Open Sans', sans-serif !important;
+}
+html{
+  overflow:auto;
+}
+
+.checkbox {
+  accent-color: $green;
+
+}
+
+body {
+  overflow: hidden;
+  background: $background;
+  margin: 0;
+}
+
+.container {
+  max-width: 1140px;
+  margin: auto;
+}
+
+.main-wrapper {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.list-column {
+  width: 78%;
+  max-width: 880px;
+  margin-left: 20px;
+}
+
+.filter-column {
+  width: 22%;
+}
+
+@mixin card {
+  background: $white;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+@mixin url {
+  user-select: none;
+  cursor: pointer;
+  padding: 0;
+  background-color: unset;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: $buttonBlue;
+  border: 0;
+  border-bottom: 1px dashed $buttonBlue;;
+}
+
